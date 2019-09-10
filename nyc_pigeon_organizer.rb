@@ -1,3 +1,14 @@
+#def nyc_pigeon_organizer(data)
+ # data.each_with_object({}) do (key, h), result| ??
+ #   h.each do {value, names}  ?????
+ #     names.each do (name) ??? 
+ 
+ ###WHY is this not working??? 
+ ##AARRRGGGHH!!!!
+ 
+ 
+
+
 def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, h), result|
     h.each do |value, names|
